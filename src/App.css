@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,119 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+/* .divlink{
+  padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+  
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+img{
+  border-radius: 10px;
+}
+
+li{list-style: none;}
+
+.pOfcontent{
+  margin-bottom: 0px;
+}
+
+.navBarWrap{
+  border: 1px none #000;
+  background: linear-gradient(293deg, #40C0B1 -17.8%, rgba(101, 193, 182, 0.00) 147.94%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  height: 100px;
+  width: 900px;
+  text-align: center;
+  font-size: 18px;
+}
+.navWrap{
+  border-radius: 10px;
+  background: lightgray 50% / cover no-repeat;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  height: 50px;
+  width: 900px;
+}
+
+.navBar{
+  list-style: none;
+  padding-top: 0.5rem;
+  
+}
+.navBar li{
+  width: 70px;
+  
+}
+
+.icon{
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(293deg, #40C0B1 -17.8%, rgba(101, 193, 182, 0.00) 147.94%);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentJava, .contentJs, .contentDB, .contentSpring, .contentSpringBoot, .contentReact{
+  height:250px; 
+  border-radius: 10px;
+  width: 450px;
+}
+
+.contentJava{
+  background: linear-gradient(298deg, #2095E9 10.56%, rgba(45, 131, 193, 0.05) 125.88%, rgba(46, 130, 191, 0.00) 125.9%);
+}
+
+.contentJs{
+  background: linear-gradient(298deg, #7720e9 10.56%, rgba(45, 131, 193, 0.05) 125.88%, rgba(46, 130, 191, 0.00) 125.9%);
+}
+
+.contentDB{
+  background: linear-gradient(298deg, #e9b020 10.56%, rgba(45, 131, 193, 0.05) 125.88%, rgba(46, 130, 191, 0.00) 125.9%);
+}
+
+.contentSpring{
+  background: linear-gradient(298deg, #e94120 10.56%, rgba(45, 131, 193, 0.05) 125.88%, rgba(46, 130, 191, 0.00) 125.9%);
+}
+
+.contentSpringBoot{
+  background: linear-gradient(141deg, #7763C6 -25.24%, #3464E0 118.28%);
+}
+
+.contentReact{
+  background: linear-gradient(298deg, #e9b020 10.56%, rgba(45, 131, 193, 0.05) 125.88%, rgba(46, 130, 191, 0.00) 125.9%);
+}
+
+/* background-image */
+.banWrap{
+  background-image: url(./assets/img/img14.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.swiper {
+  width: 900px;
+  height: 500px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-color: skyblue;
+}
+
