@@ -1,47 +1,3 @@
-/* .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
-
-/* .divlink{
-  padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
-  
-} */
-
 * {
   margin: 0;
   padding: 0;
@@ -53,6 +9,11 @@ img{
 }
 
 li{list-style: none;}
+
+li > a{
+  text-decoration: none;
+  color: #000;
+}
 
 .pOfcontent{
   margin-bottom: 0px;
@@ -80,9 +41,23 @@ li{list-style: none;}
   padding-top: 0.5rem;
   
 }
-.navBar li{
-  width: 70px;
+.navBar ul, li{
+  width: 100px;
   
+}
+
+.navBar:hover .navBarDetail{
+  display: block;
+}
+.navBar:hover {
+  display: block;
+  background: linear-gradient(141deg, #8D7BFC -25.24%, #CB74F4 118.28%);
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.navBarDetail{
+  display: none;
 }
 
 .icon{
@@ -126,8 +101,17 @@ li{list-style: none;}
 }
 
 /* background-image */
-.banWrap{
+.topBanWrap{
   background-image: url(./assets/img/img14.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 300px;
+}
+
+/* background-image */
+.banWrap{
+  background-image: url(./assets/img/img16.png);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -136,6 +120,11 @@ li{list-style: none;}
 .swiper {
   width: 900px;
   height: 500px;
+}
+
+.swiper iframe{
+  width: 100%;
+  height: 100%;
 }
 
 .swiper-slide {
@@ -149,5 +138,6 @@ li{list-style: none;}
   align-items: center;
   height: 500px;
   background-color: skyblue;
+  border-radius: 10px;
 }
 

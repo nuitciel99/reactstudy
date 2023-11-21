@@ -1,5 +1,7 @@
 import {Button, Container, Row, Col} from 'react-bootstrap';
 import { FaGithub, FaFacebook  } from "react-icons/fa";
+import { GrOracle } from "react-icons/gr";
+import { SiMariadb } from "react-icons/si";
 
 function Footer(){
     return(
@@ -19,7 +21,8 @@ function Footer(){
                     <Col md={6} className='d-flex justify-content-md-end justify-content-center'>
                         <ul className='d-flex gap-3 '>
                             <li><FaGithub /></li>
-                            <li><FaFacebook /></li>
+                            <li><GrOracle /></li>
+                            <li><SiMariadb /></li>
                         </ul>
                     </Col>
                 </Row>

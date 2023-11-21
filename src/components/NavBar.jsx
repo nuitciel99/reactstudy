@@ -9,11 +9,29 @@ function NavBar(){
             <div className="navWrap d-flex justify-content-center">
                 <Row className="mainNavBar">
                     <Col className='navBar d-flex flex-row justify-content-between'>
-                        <li>Intro</li>
-                        <li>Tools</li>
-                        <li>Projects</li>
-                        <li>Spring</li>
-                        <li>Others</li>
+                        <ul className='navBarTitle'>Intro
+                            <li className='navBarDetail'><a href="#">Introduce</a></li>
+                            <li className='navBarDetail'><a href="#">myHistory</a></li>
+                        </ul>
+                        <ul>Tools
+                            <li className='navBarDetail'><a href="#">Java</a></li>
+                            <li className='navBarDetail'><a href="#">JavaScript</a></li>
+                            <li className='navBarDetail'><a href="#">DB</a></li>
+                            <li className='navBarDetail'><a href="#">Spring</a></li>
+                            <li className='navBarDetail'><a href="#">SpringBoot</a></li>
+                            <li className='navBarDetail'><a href="#">React</a></li>
+                        </ul>
+                        <ul>Projects
+                            <li className='navBarDetail'><a href="#">Mini Project</a></li>
+                            <li className='navBarDetail'><a href="#">Semi Project</a></li>
+                            <li className='navBarDetail'><a href="#">Final Project</a></li>
+                        </ul>
+                        <ul>Reference
+                            <li className='navBarDetail'><a href="#">Reference URL</a></li>
+                        </ul>
+                        <ul>Others
+                            <li className='navBarDetail'><a href="#">Others</a></li>
+                        </ul>
                     </Col>
                 </Row>
             </div>
