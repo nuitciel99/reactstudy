@@ -12,7 +12,7 @@ import 'swiper/css/navigation';
 import { Navigation } from 'swiper/modules';
 
 
-function Content(){
+function Content(){ 
 
     return(
         <Container className='mb-5'>
