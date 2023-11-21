@@ -1,5 +1,4 @@
-import { useState } from 'react';
-import {Button, Container, Row, Col, Navbar, Nav, NavDropdown, Offcanvas} from 'react-bootstrap';
+import {Container, Row, Col} from 'react-bootstrap';
 
 function NavBar(){
 

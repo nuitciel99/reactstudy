@@ -1,5 +1,5 @@
-import {Button, Container, Row, Col} from 'react-bootstrap';
-import { FaGithub, FaFacebook  } from "react-icons/fa";
+import {Container, Row, Col} from 'react-bootstrap';
+import { FaGithub } from "react-icons/fa";
 import { GrOracle } from "react-icons/gr";
 import { SiMariadb } from "react-icons/si";
 

@@ -1,11 +1,11 @@
-import {Button, Container, Row, Col} from 'react-bootstrap';
+import {Container, Row, Col} from 'react-bootstrap';
 import { FaJava } from "react-icons/fa";
 import { TbBrandJavascript } from "react-icons/tb";
 import { FaDatabase } from "react-icons/fa";
 import { SiSpring } from "react-icons/si";
 import { SiSpringboot } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
-import React, { useRef, useState } from 'react';
+import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';

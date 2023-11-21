@@ -1,9 +1,7 @@
-import {Button, Container, Row, Col, Navbar, Nav, NavDropdown, Card, Offcanvas} from 'react-bootstrap';
-import React, { useRef, useState } from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
+import {Container, Row, Col, Card} from 'react-bootstrap';
+import React, { useState } from 'react';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import { Navigation } from 'swiper/modules';
 import {vData} from '../data.js'
 
 
